@@ -24,9 +24,7 @@ if user_input:
    if user_input.strip().lower() == st.session_state.correct_word.lower():
        st.success("✅ Naisss, Dipersembahkan video memori yang dinantikan!")
        st.video("https://youtube.com/shorts/aFKYvxjEmTI?feature=shared")
-else:
-    st.error("❌ SALAH WKWKWKWKWK!")  # <-- Replace with your own video or local file
-    else:
-
-        st.error("❌ SALAH WKWKWKWKWK!")
+   else:
+       st.error("❌ SALAH WKWKWKWKWK!")  # <-- Replace with your own video or local file
+   
 
