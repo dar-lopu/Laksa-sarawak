@@ -7,7 +7,7 @@ st.title("🧩 Mari kita susun ayat")
 st.write("Susun ayat dan dapatkan kunci untuk memori andaa! 🎥")
 
 # --- Puzzle setup ---
-correct_word = "Kunyah Lirik"
+correct_word = "KunyahLirik"
 scrambled_word = "".join(random.sample(correct_word, len(correct_word)))
 
 # Store the scrambled word in session state so it doesn't reshuffle on every input
@@ -25,4 +25,5 @@ if user_input:
         st.success("✅ Naisss, Dipersembahkan video memori yang dinantikan!")
         st.video("https://youtube.com/shorts/aFKYvxjEmTI?feature=shared")  # <-- Replace with your own video or local file
     else:
+
         st.error("❌ SALAH WKWKWKWKWK!")
