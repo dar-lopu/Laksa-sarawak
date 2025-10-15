@@ -23,9 +23,10 @@ user_input = st.text_input("Your answer:")
 if user_input:
    if user_input.strip().lower() == st.session_state.correct_word.lower():
        st.success("✅ Naisss, Dipersembahkan video memori yang dinantikan!")
-       st.video("https://youtube.com/shorts/4QPm75uvQP8?feature=share")
+       st.video("https://youtube.com/shorts/4QPm75uvQP8?si=RtDFnlGhq0cjgGky")
    else:
        st.error("❌ SALAH WKWKWKWKWK!")  # <-- Replace with your own video or local file
    
+
 
 
